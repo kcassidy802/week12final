@@ -1,0 +1,41 @@
+body { /* some minor css style as we can see for the container, bg color, styliong the button, and using a hover over the table*/
+    background-color: #5c656f;
+}
+
+.container {
+    background-color: #e4dede;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #a6b4c3;
+}
+
+.btn-primary:hover {
+    background-color: #86909b;
+    border-color: #0056b3;
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+.modal-content {
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+    background-color: #007bff;
+    color: #ffffff;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.modal-footer {
+    border-top: 1px solid #dee2e6;
+}
+
